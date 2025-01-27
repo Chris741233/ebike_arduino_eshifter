@@ -4,7 +4,10 @@ Update      :
 Author      : Chris74 pour Kiki85 (Cyclurba)
 Description : e-shifter ebike Vanmoof s5, Arduino Nano
 
+Guithub (codes et doc) : https://github.com/Chris741233/ebike_arduino_eshifter
+
 forum Cyclurba : https://cyclurba.fr/forum/757849/programme-arduino-schifter.html?discussionID=31918
+
 
 INA219 :
 https://how2electronics.com/how-to-use-ina219-dc-current-sensor-module-with-arduino/
@@ -15,7 +18,7 @@ https://www.robotique.tech/tutoriel/commander-un-moteur-par-arduino-et-le-module
 
 conso montage a vide (Arduino nano + l298n + ina219) sous 8V = 29mA (sans USB, sans diode alim)
 
-Voir aussi schema et script de calibration moteur et intensite, liens sur Cyclurba
+Voir aussi schema et script de calibration moteur et intensite
 
 ******************************************************************/
 
