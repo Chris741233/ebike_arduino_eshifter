@@ -29,6 +29,15 @@ Code d'utilisation voir "arduino_eshifter"
   <img src="./docs/cavalier.jpg" width="300" title="Arduino pinouts">
 </p>
 
+#### Banc test
+<p align="left">
+  <img src="./docs/banc_test2.jpg" width="700" title="Arduino pinouts">
+</p>
+
+#### Console Serial (code de calibrage)
+<p align="left">
+  <img src="./docs/serial_test_conso.jpg" width="700" title="Arduino pinouts">
+</p>
 ---
 
 #### Utilisation
