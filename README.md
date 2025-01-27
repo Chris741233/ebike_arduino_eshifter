@@ -11,9 +11,9 @@ Codes pour Aduino Nano/Uno (signal +5V, alim 9V)
 Site VanMoof - [VanMoof](https://www.vanmoof.com/fr-FR/our-rides/s5)
 
 **Codes**   
-- [arduino_eshifter_calibration](https://github.com/Chris741233/ebike_arduino_eshifter/arduino_eshifter_calibrage)
-- [arduino_eshifter](https://github.com/Chris741233/ebike_arduino_eshifter/arduino_eshifter)
-- [copie des librairies à installer](https://github.com/Chris741233/ebike_arduino_eshifter/library_zip)
+- [arduino_eshifter_calibration](./arduino_eshifter_calibrage)
+- [arduino_eshifter](./arduino_eshifter)
+- [copie des librairies à installer](./library_zip)
 
 ---
 #### VanMoof s5 eshifter
