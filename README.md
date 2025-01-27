@@ -32,7 +32,7 @@ Code d'utilisation voir "arduino_eshifter"
 ---
 
 #### Utilisation
-Régler les constantes en début de code selon vos essais \
+Régler les constantes en début de code selon vos essais, voir aussi le sujet sur le forum Cyclurba \
 *Adjust constants at the beginning of code*
 
 ```
