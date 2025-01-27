@@ -2,18 +2,16 @@
  eshifter for reconditioned VanMoof s5 ebike
 
 
-Aide au membre de Cyclurba Kiki85 pour son reconditionnement d'un ebike VanMoof s5
-
-Codes pour Aduino Nano/Uno (signal +5V, alim 9V)
+Aide au membre de Cyclurba Kiki85 pour son reconditionnement d'un ebike VanMoof s5  
+Aduino Nano/Uno, signal +5V, alim 9V.
 
 
 **Discussion sur le forum Cyclurba**  - [Cyclurba](https://cyclurba.fr/forum/757849/programme-arduino-schifter.html?discussionID=31918)  
 Site VanMoof - [VanMoof](https://www.vanmoof.com/fr-FR/our-rides/s5)
 
-**Codes**   
-- [arduino_eshifter_calibration](./arduino_eshifter_calibrage)
-- [arduino_eshifter](./arduino_eshifter)
-- [copie des librairies à installer](./library_zip)
+Librairies à installer, voir dossier "library_zip"  
+Code de calibrage moteur et intensité, voir "arduino_eshifter_calibrage"  
+Code d'utilisation voir "arduino_eshifter"  
 
 ---
 #### VanMoof s5 eshifter
