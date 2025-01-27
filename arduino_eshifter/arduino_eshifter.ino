@@ -82,7 +82,7 @@ const int TIMEOUT_STEP = TIMEOUT_1to3/2; // ms, etape (1to2, 2to3, etc..), en pr
 const int DELAY_PUSH_BTN = 800; // ms, lorsqu'appui sur bouton et position atteinte (stop) = le delais d'attente avant reprise
 // empeche relance moteur indesirable
 
-const bool DOUBLE_CLIC_REINIT = true;  // reinit position home sur v1 si double-clic bouton down (descendre), true ou false
+const bool DOUBLE_CLIC_REINIT = false;  // reinit position home sur v1 si double-clic bouton down (descendre), true ou false
 
 
 
