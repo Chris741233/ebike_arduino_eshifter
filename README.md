@@ -55,8 +55,8 @@ const int MA_MARGE = 200;    // (150) mA, + marge de butee a pas depasser pour s
 const int MA_MAX = MA_RUN + MA_MARGE; 
 
 // -- ces parametres influencent sur le controle intensite max moteur
-const int SUP_PIC = 30;   // (30) filtrer les premieres ms du pic demarage moteur, env. 30-50=Ok ou 0 pour desactive
-const int MIN_STAT = 20;  // 20mA minimum pour etre affiche en direct et ajoute aux stats (laisser comme ca !)
+const int SUP_PIC = 30;   // ms, filtrer les premieres ms du pic demarage moteur, env. 30-50=Ok ou 0 pour desactive
+const int MIN_STAT = 20;  // mA, 20mA minimum pour etre affiche en direct et ajoute aux stats (laisser comme ca !)
 
 const int TIMEOUT_1to3 = 2400;  // ms, temps de reference pour passer de v1 à v3 (butee basse a haute)
 const int MARGE_HOME = 100;     // ms, petite marge a ajouter a TIMEOUT_1to3 pour etre sur de la position home v1 au boot
