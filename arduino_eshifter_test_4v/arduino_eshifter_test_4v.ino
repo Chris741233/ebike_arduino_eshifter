@@ -91,7 +91,7 @@ const int DELAY_PUSH_BTN = 800; // ms, lorsqu'appui sur bouton et position attei
 // empeche relance moteur indesirable
 
 
-const int DELAIS_APPUISLONG_BTPLUS = 1800;   // délais en ms. appui long bt.UP pour passer direct sur la v4
+const int DELAIS_APPUISLONG_BTPLUS = 1500;   // délais en ms. appui long bt.UP pour passer direct sur la v4
 const bool DOUBLE_CLIC_REINIT = false;  // reinit position home sur v1 si double-clic bouton down (descendre), true ou false
 
 
@@ -215,8 +215,8 @@ void loop()
         turn_motor_down();   // move motor DOWN
         state_btDown = true; // simuler etat bouton 
     }
-    else {
-        
+    else {   
+         
         // -- Bouton UP, MONTER vers v4 --
         if (boutonUp.vientDEtreEnfonce() && !motor_turn && state_shifter < 4) {
             Serial << "appui bt UP" << endl;
@@ -239,8 +239,8 @@ void loop()
             state_shifter-=1;
             
             // pas d'instruction delay() ici !!
-        }   
-       
+        }
+
         // -- Appui long bouton UP = aller direct sur v4 --
         if (boutonUp.estEnfonceDepuisAuMoins(DELAIS_APPUISLONG_BTPLUS) && !motor_turn && state_shifter < 4 )
         {
@@ -263,9 +263,8 @@ void loop()
             timer_motor.start(TIMEOUT_1to4);
             turn_motor_up(); // move motor UP 
             state_shifter=4;
-          }            
-         
-        }        
+          }                 
+        }         
         
     } // endelse
     
