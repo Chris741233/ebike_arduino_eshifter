@@ -91,7 +91,7 @@ const int DELAY_PUSH_BTN = 800; // ms, lorsqu'appui sur bouton et position attei
 // empeche relance moteur indesirable
 
 
-const DELAIS_APPUISLONG_BTPLUS = 1800;   // délais en ms. appui long bt.UP pour passer direct sur la v4
+const int DELAIS_APPUISLONG_BTPLUS = 1800;   // délais en ms. appui long bt.UP pour passer direct sur la v4
 const bool DOUBLE_CLIC_REINIT = false;  // reinit position home sur v1 si double-clic bouton down (descendre), true ou false
 
 
