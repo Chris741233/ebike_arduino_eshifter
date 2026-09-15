@@ -250,19 +250,19 @@ void loop()
             state_btUp = true;
             timer_motor.start(TIMEOUT_STEP);
             turn_motor_up(); // move motor UP
-            state_shifter==4;
+            state_shifter=4;
           }
           if (state_shifter==2) {
             state_btUp = true;
             timer_motor.start(TIMEOUT_STEP * 2);
             turn_motor_up(); // move motor UP 
-            state_shifter==4;
+            state_shifter=4;
           }
           if (state_shifter==1) {
             state_btUp = true;
             timer_motor.start(TIMEOUT_1to4);
             turn_motor_up(); // move motor UP 
-            state_shifter==4;
+            state_shifter=4;
           }            
          
         }        
